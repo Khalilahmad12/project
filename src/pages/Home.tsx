@@ -34,10 +34,10 @@ export const Home = () => {
   return (
     <div className="overflow-hidden">
       {/* 1. Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-20 bg-slate-50">
+      <section className="relative min-h-screen flex items-center pt-20 bg-black">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-navy-900/5 rounded-bl-[200px]" />
-          <div className="absolute bottom-10 left-10 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl" />
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-navy-300/5 rounded-bl-[200px]" />
+          <div className="absolute bottom-10 left-10 w-64 h-64 bg-blue-300/5 rounded-full blur-3xl" />
         </div>
         
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center relative z-10">
@@ -46,7 +46,7 @@ export const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl leading-tight mb-6 text-navy-900">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl leading-tight mb-6 text-navy-300">
               Grow Your Business <br />
               <span className="text-blue-600">With Confidence</span>
             </h1>
