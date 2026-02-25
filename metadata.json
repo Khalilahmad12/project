@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Nexus Business Solutions",
+  "description": "A premium, professional business website for modern enterprises, featuring comprehensive service overviews, portfolio showcases, and client engagement tools.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
